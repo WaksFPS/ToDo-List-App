@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ToDo-App",
+    "slug": "ToDo-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/todoapplogo.png",
+    "scheme": "ToDo-App",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/todoapplogo.png",
+      "resizeMode":"contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/todoapplogo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.anonymous.ToDoApp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/todoapplogo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "65864978-028a-42fb-9c28-617d8cd45cdc"
+      }
+    }
+  }
+}
