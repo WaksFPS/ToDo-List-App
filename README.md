@@ -1,4 +1,6 @@
-ToDo List Application //React Native JS //Expo & EAS //Jotai //React Hook Form //Zod 
+ToDo List Application 
+
+//React Native JS //Expo & EAS //Jotai //React Hook Form //Zod 
 
 This is a project for my internship at Hooli Software/MPH Intl.
 
