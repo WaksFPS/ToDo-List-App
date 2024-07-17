@@ -1,10 +1,10 @@
 ToDo List Application 
 
-//React Native JS //Expo & EAS //Jotai //React Hook Form //Zod 
+//React Native JS //Expo & EAS //Jotai //React Hook Form //Zod
 
 This is a project for my internship at Hooli Software/MPH Intl.
 
-This project was made possible using ChatGPT 3.5 via GPT4All.
+This project was made possible using oblador.github.io (icons), Moment, and ChatGPT 3.5 via GPT4All.
 
 You can find all the files of the application in this repository.
 
