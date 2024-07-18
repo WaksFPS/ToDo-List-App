@@ -6,9 +6,9 @@ This is a project for my internship at Hooli Software/MPH Intl.
 
 This project was made possible using oblador.github.io (icons), Moment.Js, Codeium, and ChatGPT 3.5 via GPT4All.
 
-You can find all the files of the application in this repository.
+All the files of the application are in this repository.
 
-You can also find the final build of the application at ./ToDo-List-App/ToDoListAPK/
+App's final build located at ./ToDo-List-App/ToDoListAPK/
 
 Logo made using Adobe Illustrator:
 
