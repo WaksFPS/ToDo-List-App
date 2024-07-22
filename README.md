@@ -2,6 +2,8 @@ ToDo List Application
 
 //React Native JS //Expo & EAS //Jotai //React Hook Form //Zod
 
+//Jeane Claude Maglaqui 
+
 This is a project for my internship at Hooli Software.
 
 This project was made possible using IconsKitchen, oblador.github.io, Moment.js, Codeium, and ChatGPT 3.5 via GPT4All.
