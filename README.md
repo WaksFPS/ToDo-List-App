@@ -8,7 +8,7 @@ This project was made possible using IconsKitchen, oblador.github.io, Moment.js,
 
 All the files of the application are in this repository.
 
-App's finla build located at ./ToDo-List-App/ToDoListAPK/
+App's final build located at ToDoListAPK/
 
 Logo made using Adobe Illustrator:
 
