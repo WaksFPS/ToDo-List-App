@@ -4,7 +4,7 @@ ToDo List Application
 
 This is a project for my internship at Hooli Software/MPH Intl.
 
-This project was made possible using oblador.github.io (icons), Moment.Js, Codeium, and ChatGPT 3.5 via GPT4All.
+This project was made possible using iconskitchen, oblador.github.io (icons), Moment.Js, Codeium, and ChatGPT 3.5 via GPT4All.
 
 All the files of the application are in this repository.
 
