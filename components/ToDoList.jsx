@@ -110,6 +110,7 @@ export default function ToDoList() {
 
   return (
     <View style={styles.container}>
+      
       <Controller
         control={control}
         name="newTask"
@@ -245,6 +246,7 @@ const styles = StyleSheet.create({
     margin:5,
     elevation:5,
     backgroundColor:'white',
+    
   },
   taskText: {
     fontSize:20,

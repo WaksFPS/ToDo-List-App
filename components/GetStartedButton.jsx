@@ -7,8 +7,8 @@ const GetStartedButton = ({
 }) => {
   return (
     <TouchableOpacity onPress={handlePress} 
-    className="bg-orange-400 rounded-xl flex justify-center items-center p-4">
-      <Text className="font-semibold text-2xl">{title}</Text>
+    className=" bg-amber-500 rounded-xl items-bottom px-9 py-3 mt-5">
+      <Text className="font-semibold text-xl text-white">{title}</Text>
     </TouchableOpacity>
   );
 };
