@@ -1,7 +1,7 @@
 //Jeane Claude Maglaqui WD-402
 //OJT Onboarding Training | ToDo List App
 //React Native, Expo Router, Android Studio
-//Jotai, React Hook Form, Zod
+//Jotai, React Hook Form, Zod, Moment
 import React, { useEffect } from 'react';
 import {
   StyleSheet,
@@ -12,20 +12,20 @@ import {
   TouchableOpacity,
   Modal,
 } from 'react-native';
-// import CheckBox from '@react-native-community/checkbox' //changed to touchableOpac nalang
+// import CheckBox from '@react-native-community/checkbox' //wrap to touchableOpac nalang
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useForm, Controller } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useAtom } from 'jotai';
 import { tasksAtom, modalVisibleAtom, selectedTaskIdAtom, clearAllModalVisibleAtom } from './Atoms';
-import Icon from 'react-native-vector-icons/Feather';//pencil
-import Icon2 from 'react-native-vector-icons/MaterialCommunityIcons'//trash can
-import Icon3 from 'react-native-vector-icons/AntDesign';//addfile
-import Icon4 from 'react-native-vector-icons/MaterialCommunityIcons'//checkbox
+import Icon from 'react-native-vector-icons/Feather';//pencil icon
+import Icon2 from 'react-native-vector-icons/MaterialCommunityIcons'//trash can icon
+import Icon3 from 'react-native-vector-icons/AntDesign';//addfile icon
+import Icon4 from 'react-native-vector-icons/MaterialCommunityIcons'//checkbox icon
 
 
-//zod schemas for validation
+//zod schema for validation
 const taskSchema = z.object({
   newTask: z.string().min(1, { message: 'Task Name is Required' }),
 });
@@ -121,7 +121,7 @@ export default function ToDoList() {
             placeholder="Add a new task"
             value={value}
             onChangeText={onChange}
-            maxLength={23} //might fix in the future | limited to 24 kasi if more than 24 matatakpan na yung edit button hahaha
+            maxLength={23} //might fix in the future | limited to 24 kasi if more than 24 mawawala yung edit button hahaha
           />
         )}
       />
@@ -174,7 +174,7 @@ export default function ToDoList() {
                 placeholder="Edit task"
                 value={value}
                 onChangeText={onChange}
-                maxLength={23}
+                maxLength={23} //might fix in the future | limited to 24 kasi if more than 24 mawawala yung edit button hahaha
               />
             )}
           />
@@ -211,7 +211,7 @@ export default function ToDoList() {
     </View>
   );
 }
-
+// I havent used tailwind here kasi hindi pa po ako sanay sa mga shortcuts niya like yung margin top bottom is "my" pala hehe pero nagppractice na po
 const styles = StyleSheet.create({
   container: {
     flex: 1,
